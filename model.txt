@@ -1,0 +1,14 @@
+[Base]
+url = /rest/api/1.0/
+
+[Model]
+structure = 
+    GET,POST         users/
+    GET,PUT,DELETE   users/:userID/
+    GET,PUT          users/:userID/name
+    GET,POST         users/:userID/addresses/
+    GET,PUT,DELETE   users/:userID/addresses/:address/
+    GET,PUT          users/:userID/addresses/:address/address_lines
+    GET,PUT          users/:userID/addresses/:address/post_code
+    GET,PUT          users/:userID/age
+
